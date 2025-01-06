@@ -3,7 +3,7 @@ import { GraduationCap, Globe2, BookOpen, CheckCircle, Users, Send } from 'lucid
 import { translations } from './translations';
 
 function App() {
-  const [lang, setLang] = useState<'en' | 'zh'>('en');
+  const [lang, setLang] = useState<'en' | 'zh'>('zh'); // Changed default to 'zh'
   const t = translations[lang];
 
   return (
@@ -15,8 +15,8 @@ function App() {
           onChange={(e) => setLang(e.target.value as 'en' | 'zh')}
           className="bg-white border border-gray-300 rounded-md px-3 py-1 shadow-sm"
         >
-          <option value="en">English</option>
           <option value="zh">中文</option>
+          <option value="en">English</option>
         </select>
       </div>
 
@@ -24,8 +24,8 @@ function App() {
       <header className="relative h-[600px] flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80"
-            alt="Teaching background" 
+            src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&q=80"
+            alt="IELTS Study" 
             className="w-full h-full object-cover brightness-50"
           />
         </div>
@@ -111,14 +111,14 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <BookOpen className="w-6 h-6" />
-                <span className="text-xl font-bold text-white">TeachGlobal</span>
+                <span className="text-xl font-bold text-white">IELTS培训</span>
               </div>
               <p>{t.hero.subtitle}</p>
             </div>
             {[
-              { title: t.footer.company, links: ["About", "Careers", "Contact"] },
-              { title: t.footer.resources, links: ["Blog", "Teaching Tips", "FAQ"] },
-              { title: t.footer.legal, links: ["Privacy Policy", "Terms of Service", "Cookie Policy"] }
+              { title: t.footer.company, links: ["关于我们", "招贤纳士", "联系我们"] },
+              { title: t.footer.resources, links: ["学习资料", "备考技巧", "常见问题"] },
+              { title: t.footer.legal, links: ["隐私政策", "服务条款", "Cookie政策"] }
             ].map((col, index) => (
               <div key={index}>
                 <h3 className="text-white font-semibold mb-4">{col.title}</h3>
@@ -135,7 +135,7 @@ function App() {
             ))}
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} TeachGlobal. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} IELTS培训. All rights reserved.</p>
           </div>
         </div>
       </footer>

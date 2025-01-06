@@ -1,59 +1,59 @@
 export const translations = {
   en: {
     hero: {
-      title: "Teach English Abroad",
-      subtitle: "Join our global community of educators and make a difference in students' lives while exploring new cultures",
-      cta: "Apply Now"
+      title: "IELTS Training",
+      subtitle: "Expert IELTS preparation to help you achieve your target score",
+      cta: "Start Learning"
     },
     benefits: {
       title: "Why Choose Us?",
       items: [
         {
-          title: "International Opportunities",
-          desc: "Teach in top schools across Asia, Europe, and beyond"
+          title: "Expert Instructors",
+          desc: "Learn from certified IELTS teachers with proven track records"
         },
         {
-          title: "Supportive Community",
-          desc: "Join a network of passionate educators worldwide"
+          title: "Comprehensive Training",
+          desc: "Cover all four modules: Reading, Writing, Listening, and Speaking"
         },
         {
-          title: "Professional Development",
-          desc: "Continuous training and career growth opportunities"
+          title: "Guaranteed Results",
+          desc: "Structured curriculum and practice tests to improve your score"
         }
       ]
     },
     requirements: {
-      title: "Requirements",
+      title: "Course Features",
       items: [
-        "Bachelor's degree from an accredited university",
-        "Native English speaker or C2 level proficiency",
-        "TEFL/TESOL certification (or willing to obtain)",
-        "Clean background check",
-        "Excellent communication skills",
-        "Passion for teaching and cultural exchange"
+        "One-on-one tutoring sessions",
+        "Weekly mock tests",
+        "Detailed feedback and analysis",
+        "Practice materials included",
+        "Flexible scheduling",
+        "Online and offline options"
       ]
     },
     apply: {
-      title: "How to Apply",
+      title: "How to Start",
       steps: [
         {
-          title: "Submit Application",
-          desc: "Fill out our online application form and upload your resume"
+          title: "Book Assessment",
+          desc: "Take a free assessment test to determine your current level"
         },
         {
-          title: "Interview",
-          desc: "Complete a video interview and teaching demo"
+          title: "Customize Plan",
+          desc: "Get a personalized study plan based on your goals"
         },
         {
-          title: "Placement",
-          desc: "Get matched with schools that fit your preferences"
+          title: "Start Training",
+          desc: "Begin your journey to IELTS success"
         }
       ]
     },
     cta: {
-      title: "Ready to Start Your Teaching Adventure?",
-      subtitle: "Join thousands of teachers who have found their dream teaching positions abroad",
-      button: "Start Application"
+      title: "Ready to Achieve Your Target IELTS Score?",
+      subtitle: "Join thousands of successful students who have reached their goals",
+      button: "Book Free Assessment"
     },
     footer: {
       company: "Company",
@@ -63,59 +63,59 @@ export const translations = {
   },
   zh: {
     hero: {
-      title: "海外英语教学",
-      subtitle: "加入我们的全球教育者社区，在探索新文化的同时改变学生的生活",
-      cta: "立即申请"
+      title: "雅思培训",
+      subtitle: "专业雅思备考，助您实现目标分数",
+      cta: "开始学习"
     },
     benefits: {
       title: "为什么选择我们？",
       items: [
         {
-          title: "国际机会",
-          desc: "在亚洲、欧洲等地的顶级学校任教"
+          title: "专业教师",
+          desc: "由认证雅思教师授课，拥有出色的教学成果"
         },
         {
-          title: "支持社区",
-          desc: "加入全球热情教育者网络"
+          title: "全面培训",
+          desc: "覆盖听说读写四个模块"
         },
         {
-          title: "职业发展",
-          desc: "持续的培训和职业成长机会"
+          title: "保证效果",
+          desc: "系统课程和模拟考试提升您的分数"
         }
       ]
     },
     requirements: {
-      title: "申请要求",
+      title: "课程特色",
       items: [
-        "认可大学的学士学位",
-        "英语母语者或C2级别水平",
-        "TEFL/TESOL证书（或愿意获取）",
-        "无犯罪记录",
-        "出色的沟通能力",
-        "对教学和文化交流充满热情"
+        "一对一辅导课程",
+        "每周模拟考试",
+        "详细反馈分析",
+        "包含练习材料",
+        "灵活的课程安排",
+        "线上线下选择"
       ]
     },
     apply: {
-      title: "如何申请",
+      title: "如何开始",
       steps: [
         {
-          title: "提交申请",
-          desc: "填写在线申请表并上传简历"
+          title: "预约测评",
+          desc: "参加免费测评，了解当前水平"
         },
         {
-          title: "面试",
-          desc: "完成视频面试和教学演示"
+          title: "定制方案",
+          desc: "根据您的目标获取个性化学习计划"
         },
         {
-          title: "岗位匹配",
-          desc: "与符合您偏好的学校匹配"
+          title: "开始培训",
+          desc: "开启您的雅思成功之旅"
         }
       ]
     },
     cta: {
-      title: "准备好开始您的教学冒险了吗？",
-      subtitle: "加入数千名已找到理想海外教学岗位的教师",
-      button: "开始申请"
+      title: "准备好实现您的雅思目标分数了吗？",
+      subtitle: "加入数千名已成功达到目标的学员",
+      button: "预约免费测评"
     },
     footer: {
       company: "公司",
